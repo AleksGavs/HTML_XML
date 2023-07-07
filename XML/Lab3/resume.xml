@@ -1,0 +1,52 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+<resume xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/E:/ИТМО/05 HTML и XML/Практика выполненное/HTML_CSS_XML/XML/Lab3/resume_XML.xsd">
+	<Candidate id = "C101">
+		<Name>Павел</Name>
+		<Surname>Чичиков</Surname>
+		<Patronym>Иванович</Patronym>
+		<CurrentJob>ООО "Душевная компания"</CurrentJob>
+		<CurrentPosition>Чиновник</CurrentPosition>
+		<DateOfBirth>1998-07-16</DateOfBirth>
+		<Age>25</Age>
+		<Education>Магистратура</Education>
+		<Address>ул. Гоголя, д. 25, кв. 12</Address>
+		<PhoneNumber>125-44-88</PhoneNumber>
+		<FamilyStatus>Женат</FamilyStatus>
+		<DesiredIncome>150000</DesiredIncome>
+	</Candidate>
+	
+	<Candidate id = "C121">
+		<Name>Родион</Name>
+		<Surname>Раскольников</Surname>
+		<Patronym>Романович</Patronym>
+		<CurrentJob>ОАО "Как срубить бабок"</CurrentJob>
+		<CurrentPosition>Лесоруб</CurrentPosition>
+		<DateOfBirth>1978-08-02</DateOfBirth>
+		<Age>45</Age>
+		<Education>Высшее</Education>
+		<Address>ул. Достаевского, д. 1, кв. 66</Address>
+		<PhoneNumber>258-16-98</PhoneNumber>
+		<FamilyStatus>Холост</FamilyStatus>
+		<DesiredIncome>80000</DesiredIncome>
+	</Candidate>
+	
+	<Candidate id = "D095">
+		<Name>Анна</Name>
+		<Surname>Каренина</Surname>
+		<Patronym>Аркадьевна</Patronym>
+		<CurrentJob>ОАО "РЖД"</CurrentJob>
+		<CurrentPosition>Обходчик ЖД путей</CurrentPosition>
+		<DateOfBirth>1996-11-05</DateOfBirth>
+		<Age>27</Age>
+		<Education>Среднее</Education>
+		<Address>ул. Толстого, д. 5, кв. 17</Address>
+		<PhoneNumber>425-87-14</PhoneNumber>
+		<FamilyStatus>Замужем</FamilyStatus>
+		<DesiredIncome>92000</DesiredIncome>
+	</Candidate>
+</resume>
+
+
+
+
+

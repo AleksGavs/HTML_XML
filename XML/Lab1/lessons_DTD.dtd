@@ -1,0 +1,9 @@
+		<!ELEMENT schedule (Course+)>
+		<!ELEMENT Course (CourseName, ProfessorsName, StartDate, FinishDate, ExamType, QtyOfHours)>
+		<!ELEMENT CourseName (#PCDATA)>
+		<!ELEMENT ProfessorsName (#PCDATA)>
+		<!ELEMENT StartDate (#PCDATA)>
+		<!ELEMENT FinishDate (#PCDATA)>
+		<!ELEMENT ExamType (#PCDATA)>
+		<!ELEMENT QtyOfHours (#PCDATA)>
+

@@ -1,0 +1,41 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="schedule">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "Course" minOccurs = "1" maxOccurs = "unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element> 
+	
+	<xs:element name="Course">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element	name = "CourseName" type="xs:string"/>	
+				<xs:element	name = "ProfessorsName" type="xs:string"/>	
+				<xs:element	name = "StartDate" type="xs:date"/>	
+				<xs:element	name = "FinishDate" type="xs:date"/>
+				<!--<xs:element	name = "ExamType" type="xs:string"/>
+				<xs:element	name = "QtyOfHours" type="xs:string"/>-->
+				<xs:element name = "ExamType">
+					<xs:simpleType>
+						<xs:restriction base = "xs:string">
+							<xs:enumeration value="Зачёт"/>
+							<xs:enumeration value="Экзамен" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name = "QtyOfHours">
+					<xs:simpleType>
+						<xs:restriction base = "xs:unsignedByte">
+							<xs:minInclusive value = "1" />
+							<xs:maxInclusive value = "255" />
+						</xs:restriction>	
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>

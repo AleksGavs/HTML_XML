@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<schedule xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/E:/ИТМО/05 HTML и XML/Практика выполненное/HTML_CSS_XML/XML/Lab3/lessons_XML.xsd">
+	<Course>
+		<CourseName>Технологии программирования </CourseName>
+		<ProfessorsName>Ямщиков Д.В.</ProfessorsName>
+		<StartDate>2023-03-27</StartDate>
+		<FinishDate>2023-04-11</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>45</QtyOfHours>
+	</Course>
+	
+	<Course>
+		<CourseName>Программирование на C#</CourseName>
+		<ProfessorsName>Осипов Н.А.</ProfessorsName>
+		<StartDate>2023-04-23</StartDate>
+		<FinishDate>2023-04-28</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>50</QtyOfHours>
+	</Course>
+	
+	<Course>
+		<CourseName>Разработка Windows-приложений на C#</CourseName>
+		<ProfessorsName>Смольянинов А.В.</ProfessorsName>
+		<StartDate>2023-05-02</StartDate>
+		<FinishDate>2023-05-30</FinishDate>
+		<ExamType>Экзамен</ExamType>
+		<QtyOfHours>50</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Введение в базы данных</CourseName>
+		<ProfessorsName>Осетрова И.С.</ProfessorsName>
+		<StartDate>2023-06-01</StartDate>
+		<FinishDate>2023-06-16</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>35</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Основы технологий разметки (HTML, XML)</CourseName>
+		<ProfessorsName>Кузьмин К.М.</ProfessorsName>
+		<StartDate>2023-06-19</StartDate>
+		<FinishDate>2023-06-29</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>25</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Transact-SQL и Разработка Microsoft SQL Server</CourseName>
+		<ProfessorsName>Ямщиков Д.В.</ProfessorsName>
+		<StartDate>2023-07-03</StartDate>
+		<FinishDate>2023-07-28</FinishDate>
+		<ExamType>Экзамен</ExamType>
+		<QtyOfHours>65</QtyOfHours>
+	</Course>
+	
+</schedule>
+
+
+
+
+

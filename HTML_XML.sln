@@ -1,0 +1,183 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{EB4B5083-877D-44D6-A69C-18F0B129A7C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{96605243-B66E-4EA1-8BEB-3E6025DA5222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{6D96356C-05DB-4E56-9ECD-5398F5B22D17}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab1\classification.html = CSS\Lab1\classification.html
+		CSS\Lab1\index.html = CSS\Lab1\index.html
+		CSS\Lab1\style.css = CSS\Lab1\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{04D22977-7463-4BE0-9825-EBF2E9E463FE}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab2\about_buttons.html = CSS\Lab2\about_buttons.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{90E7D0B5-2550-4597-BEB3-D8355A13B1A0}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab3\gallery.html = CSS\Lab3\gallery.html
+		CSS\Lab3\reset.css = CSS\Lab3\reset.css
+		CSS\Lab3\textFormat.html = CSS\Lab3\textFormat.html
+		CSS\Lab3\textFormat_1.html = CSS\Lab3\textFormat_1.html
+		CSS\Lab3\textFormat_2.html = CSS\Lab3\textFormat_2.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{D12DB23D-5420-43DB-B55E-51D47E9D5BE1}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab4\form.html = CSS\Lab4\form.html
+		CSS\Lab4\global.css = CSS\Lab4\global.css
+		CSS\Lab4\main.css = CSS\Lab4\main.css
+		CSS\Lab4\table.html = CSS\Lab4\table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{47784CE2-CE20-4BE8-9530-B6C447BCED19}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab1\images\Button_1.jpg = CSS\Lab1\images\Button_1.jpg
+		CSS\Lab1\images\button_3.png = CSS\Lab1\images\button_3.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{6D12DC99-F9DD-438E-804D-D93744CD4467}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab3\images\button_1.jpg = CSS\Lab3\images\button_1.jpg
+		CSS\Lab3\images\button_3.png = CSS\Lab3\images\button_3.png
+		CSS\Lab3\images\button_4.jpg = CSS\Lab3\images\button_4.jpg
+		CSS\Lab3\images\enot.jpg = CSS\Lab3\images\enot.jpg
+		CSS\Lab3\images\img_1.jpg = CSS\Lab3\images\img_1.jpg
+		CSS\Lab3\images\img_2.jpg = CSS\Lab3\images\img_2.jpg
+		CSS\Lab3\images\img_3.jpg = CSS\Lab3\images\img_3.jpg
+		CSS\Lab3\images\img_4.jpg = CSS\Lab3\images\img_4.jpg
+		CSS\Lab3\images\img_5.jpg = CSS\Lab3\images\img_5.jpg
+		CSS\Lab3\images\img_6.gif = CSS\Lab3\images\img_6.gif
+		CSS\Lab3\images\switok.png = CSS\Lab3\images\switok.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{41DDDDF2-D3A4-4D3D-AF3A-6B30F9772B48}"
+	ProjectSection(SolutionItems) = preProject
+		CSS\Lab4\images\star.png = CSS\Lab4\images\star.png
+		CSS\Lab4\images\underline.png = CSS\Lab4\images\underline.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{C589F391-43C7-4BB0-89E1-74689218D472}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab1\ex1.html = HTML\Lab1\ex1.html
+		HTML\Lab1\ex2.html = HTML\Lab1\ex2.html
+		HTML\Lab1\ex3.html = HTML\Lab1\ex3.html
+		HTML\Lab1\wing.png = HTML\Lab1\wing.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{0593AC07-9240-4846-BD11-0BFFAF8B3B33}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab2\classification.html = HTML\Lab2\classification.html
+		HTML\Lab2\code.html = HTML\Lab2\code.html
+		HTML\Lab2\findings.html = HTML\Lab2\findings.html
+		HTML\Lab2\index.html = HTML\Lab2\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{6F1C0CC1-1337-4D3B-9F1F-75D64E502DCC}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab2\images\Button_1.jpg = HTML\Lab2\images\Button_1.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{20A4F1D3-9515-4B87-B1E1-DF7ECC4E3C47}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab3\about_buttons.html = HTML\Lab3\about_buttons.html
+		HTML\Lab3\ex4.html = HTML\Lab3\ex4.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{E6C7EA2D-E06C-433C-BD9F-53A559E669C5}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab4\ex5.html = HTML\Lab4\ex5.html
+		HTML\Lab4\table.html = HTML\Lab4\table.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab5", "Lab5", "{C173516F-8628-455F-97AF-DBFB270E5AC0}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab5\ex6.html = HTML\Lab5\ex6.html
+		HTML\Lab5\map.html = HTML\Lab5\map.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{8D25EF08-7C8A-4305-ADA0-C5DF5CD05E40}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab5\images\button_4.jpg = HTML\Lab5\images\button_4.jpg
+		HTML\Lab5\images\video.mp4 = HTML\Lab5\images\video.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab6", "Lab6", "{31B035BC-DB1F-4799-B937-646AFBCDDFA5}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab6\ex7.html = HTML\Lab6\ex7.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{D686DDB5-8184-4F37-ACE8-B17BBA3FC63B}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab6\image\enot.jpg = HTML\Lab6\image\enot.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab7", "Lab7", "{92D23934-489A-4F75-8628-5C613948CD56}"
+	ProjectSection(SolutionItems) = preProject
+		HTML\Lab7\block_1.css = HTML\Lab7\block_1.css
+		HTML\Lab7\block_1.html = HTML\Lab7\block_1.html
+		HTML\Lab7\block_2.css = HTML\Lab7\block_2.css
+		HTML\Lab7\block_2.html = HTML\Lab7\block_2.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{D22D602F-1D29-460C-B910-26A90001DB59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{80AF0A65-FDC1-46DB-9868-012E9981DAD4}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab1\lessons-ns.xml = XML\Lab1\lessons-ns.xml
+		XML\Lab1\lessons.xml = XML\Lab1\lessons.xml
+		XML\Lab1\lessons_DTD.dtd = XML\Lab1\lessons_DTD.dtd
+		XML\Lab1\resume.xml = XML\Lab1\resume.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{52E4022A-C08D-416C-9F7B-485E95387065}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab2\library.xml = XML\Lab2\library.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{6F8E0B8E-6C03-46E6-9352-3D4B111AC45F}"
+	ProjectSection(SolutionItems) = preProject
+		XML\Lab3\lessons.xml = XML\Lab3\lessons.xml
+		XML\Lab3\lessons_XML.xsd = XML\Lab3\lessons_XML.xsd
+		XML\Lab3\resume.xml = XML\Lab3\resume.xml
+		XML\Lab3\resume_complex.xml = XML\Lab3\resume_complex.xml
+		XML\Lab3\resume_complex_XML.xsd = XML\Lab3\resume_complex_XML.xsd
+		XML\Lab3\resume_XML.xsd = XML\Lab3\resume_XML.xsd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D96356C-05DB-4E56-9ECD-5398F5B22D17} = {96605243-B66E-4EA1-8BEB-3E6025DA5222}
+		{04D22977-7463-4BE0-9825-EBF2E9E463FE} = {96605243-B66E-4EA1-8BEB-3E6025DA5222}
+		{90E7D0B5-2550-4597-BEB3-D8355A13B1A0} = {96605243-B66E-4EA1-8BEB-3E6025DA5222}
+		{D12DB23D-5420-43DB-B55E-51D47E9D5BE1} = {96605243-B66E-4EA1-8BEB-3E6025DA5222}
+		{47784CE2-CE20-4BE8-9530-B6C447BCED19} = {6D96356C-05DB-4E56-9ECD-5398F5B22D17}
+		{6D12DC99-F9DD-438E-804D-D93744CD4467} = {90E7D0B5-2550-4597-BEB3-D8355A13B1A0}
+		{41DDDDF2-D3A4-4D3D-AF3A-6B30F9772B48} = {D12DB23D-5420-43DB-B55E-51D47E9D5BE1}
+		{C589F391-43C7-4BB0-89E1-74689218D472} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{0593AC07-9240-4846-BD11-0BFFAF8B3B33} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{6F1C0CC1-1337-4D3B-9F1F-75D64E502DCC} = {0593AC07-9240-4846-BD11-0BFFAF8B3B33}
+		{20A4F1D3-9515-4B87-B1E1-DF7ECC4E3C47} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{E6C7EA2D-E06C-433C-BD9F-53A559E669C5} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{C173516F-8628-455F-97AF-DBFB270E5AC0} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{8D25EF08-7C8A-4305-ADA0-C5DF5CD05E40} = {C173516F-8628-455F-97AF-DBFB270E5AC0}
+		{31B035BC-DB1F-4799-B937-646AFBCDDFA5} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{D686DDB5-8184-4F37-ACE8-B17BBA3FC63B} = {31B035BC-DB1F-4799-B937-646AFBCDDFA5}
+		{92D23934-489A-4F75-8628-5C613948CD56} = {EB4B5083-877D-44D6-A69C-18F0B129A7C6}
+		{80AF0A65-FDC1-46DB-9868-012E9981DAD4} = {D22D602F-1D29-460C-B910-26A90001DB59}
+		{52E4022A-C08D-416C-9F7B-485E95387065} = {D22D602F-1D29-460C-B910-26A90001DB59}
+		{6F8E0B8E-6C03-46E6-9352-3D4B111AC45F} = {D22D602F-1D29-460C-B910-26A90001DB59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E3D7ADA-3D12-41EA-A753-52F4D84A7A6C}
+	EndGlobalSection
+EndGlobal

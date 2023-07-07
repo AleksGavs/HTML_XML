@@ -1,0 +1,63 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE library [
+	<!ELEMENT library (book_catalog, author_catalog)>
+
+	<!ELEMENT book_catalog (book*)>
+	<!ELEMENT book (authors?, title, publishing, annotation?)>
+	<!ELEMENT authors (author+)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT publishing (#PCDATA)>
+	<!ELEMENT annotation (#PCDATA)>
+
+	<!ELEMENT author_catalog (author_book*)>
+	<!ELEMENT author_book (#PCDATA)>
+
+	<!ATTLIST book 
+		id ID #REQUIRED
+		isbn CDATA #IMPLIED
+		year CDATA #REQUIRED 
+		issue (translation | original) "translation">
+
+		<!ATTLIST author_book
+		idref IDREF #REQUIRED>
+
+	<!ENTITY linux "Linux">
+	<!ENTITY internet "Internet">
+]>
+
+<library>
+	<book_catalog>
+	
+		<book id = "book1" isbn = "yes" year = "1987" issue = "original">
+			<title>Библия</title>
+			<publishing>ОАО "РПЦ"</publishing>
+			<annotation>Научит как правильно жить эту жизнь</annotation>
+		</book>
+		
+		<book id = "book2" year = "2005" issue = "translation">
+			<authors>
+				<author>Пупкин В.Г.</author>
+				<author>Дупкин А.В.</author>
+			</authors>
+			<title>Проблема работы  в ОС </title>
+			<publishing>Мамкин хакер</publishing>
+			<annotation>Если не можете смотреть мемасики в &internet; на &linux;</annotation>
+		</book>
+		
+		<book id = "book3" isbn = "no" year = "1955" issue = "original">
+			<authors>
+				<author>Пугавкин М.В.</author>
+			</authors>
+			<title>Нетленка</title>
+			<publishing>Питер</publishing>			
+		</book>
+	</book_catalog>
+	
+	<author_catalog>
+		<author_book idref = "book2">Пупкин В.Г.</author_book>
+		<author_book idref = "book2">Дупкин А.В.</author_book>
+		<author_book idref = "book3">Пугавкин М.В.</author_book>
+	</author_catalog>
+	
+</library>

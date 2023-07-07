@@ -1,0 +1,63 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE schedule SYSTEM "lessons_DTD.dtd">
+<schedule>
+	<Course>
+		<CourseName>Технологии программирования </CourseName>
+		<ProfessorsName>Ямщиков Д.В.</ProfessorsName>
+		<StartDate>27/03/23</StartDate>
+		<FinishDate>11/04/23</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>45</QtyOfHours>
+	</Course>
+	
+	<Course>
+		<CourseName>Программирование на C#</CourseName>
+		<ProfessorsName>Осипов Н.А.</ProfessorsName>
+		<StartDate>13/04/23</StartDate>
+		<FinishDate>28/04/23</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>50</QtyOfHours>
+	</Course>
+	
+	<Course>
+		<CourseName>Разработка Windows-приложений на C#</CourseName>
+		<ProfessorsName>Смольянинов А.В.</ProfessorsName>
+		<StartDate>02/05/23</StartDate>
+		<FinishDate>30/05/23</FinishDate>
+		<ExamType>Экзамен</ExamType>
+		<QtyOfHours>50</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Введение в базы данных</CourseName>
+		<ProfessorsName>Осетрова И.С.</ProfessorsName>
+		<StartDate>01/06/23</StartDate>
+		<FinishDate>16/06/23</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>35</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Основы технологий разметки (HTML, XML)</CourseName>
+		<ProfessorsName>Кузьмин К.М.</ProfessorsName>
+		<StartDate>19/06/23</StartDate>
+		<FinishDate>29/06/23</FinishDate>
+		<ExamType>Зачёт</ExamType>
+		<QtyOfHours>25</QtyOfHours>
+	</Course>
+	
+	<Course>	
+		<CourseName>Transact-SQL и Разработка Microsoft SQL Server</CourseName>
+		<ProfessorsName>Ямщиков Д.В.</ProfessorsName>
+		<StartDate>03/07/23</StartDate>
+		<FinishDate>28/07/23</FinishDate>
+		<ExamType>Экзамен</ExamType>
+		<QtyOfHours>65</QtyOfHours>
+	</Course>
+	
+</schedule>
+
+
+
+
+

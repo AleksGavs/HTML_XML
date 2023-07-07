@@ -1,0 +1,49 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+<resume>
+	<Candidate id = "C101">
+		<Name>Павел</Name>
+		<Surname>Чичиков</Surname>
+		<Patronym>Иванович</Patronym>
+		<CurrentJob>ООО "Душевная компания"</CurrentJob>
+		<CurrentPosition>Чиновник</CurrentPosition>
+		<DateOfBirth>15.07.1998</DateOfBirth>
+		<Education>Магистратура</Education>
+		<Address>ул. Гоголя, д. 25, кв. 12</Address>
+		<PhoneNumber>+7-906-125-44-88</PhoneNumber>
+		<FamilyStatus>Женат</FamilyStatus>
+		<DesiredIncome>150 000$</DesiredIncome>
+	</Candidate>
+	
+	<Candidate id = "C121">
+		<Name>Родион</Name>
+		<Surname>Раскольников</Surname>
+		<Patronym>Романович</Patronym>
+		<CurrentJob>ОАО "Как срубить бабок"</CurrentJob>
+		<CurrentPosition>Лесоруб</CurrentPosition>
+		<DateOfBirth>02.08.1978</DateOfBirth>
+		<Education>Высшее</Education>
+		<Address>ул. Достаевского, д. 1, кв. 66</Address>
+		<PhoneNumber>+7-918-258-16-98</PhoneNumber>
+		<FamilyStatus>Холост</FamilyStatus>
+		<DesiredIncome>80 000$</DesiredIncome>
+	</Candidate>
+	
+	<Candidate id = "D095">
+		<Name>Анна</Name>
+		<Surname>Каренина</Surname>
+		<Patronym>Аркадьевна</Patronym>
+		<CurrentJob>ОАО "РЖД"</CurrentJob>
+		<CurrentPosition>Обходчик ЖД путей</CurrentPosition>
+		<DateOfBirth>05.11.1998</DateOfBirth>
+		<Education>Срденее техническое</Education>
+		<Address>ул. Толстого, д. 5, кв. 17</Address>
+		<PhoneNumber>+7-924-425-87-14</PhoneNumber>
+		<FamilyStatus>Всё сложно</FamilyStatus>
+		<DesiredIncome>92 000$</DesiredIncome>
+	</Candidate>
+</resume>
+
+
+
+
+

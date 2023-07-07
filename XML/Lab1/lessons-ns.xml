@@ -1,0 +1,73 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+<sch:schedule xmlns:sch = "http://www.itmo.ru/xml/lessons">
+	<sch:Course>
+		<sch:CourseName>Технологии программирования </sch:CourseName>
+		<sch:ProfessorsName>Ямщиков Д.В.</sch:ProfessorsName>
+		<sch:StartDate>27/03/23</sch:StartDate>
+		<sch:FinishDate>11/04/23</sch:FinishDate>
+		<sch:ExamType>Зачёт</sch:ExamType>
+		<sch:QtyOfHours>45</sch:QtyOfHours>
+		<sch:Literature>Озеров В.А. "Умная книга по предмету"</sch:Literature>
+		<sch:Literature>Прудников А.В. "Введение в выведение"</sch:Literature>
+		<sch:Literature>Столярова М.Н. "Выведение из введения"</sch:Literature>
+	</sch:Course>
+	
+	<sch:Course>
+		<sch:CourseName>Программирование на C#</sch:CourseName>
+		<sch:ProfessorsName>Осипов Н.А.</sch:ProfessorsName>
+		<sch:StartDate>13/04/23</sch:StartDate>
+		<sch:FinishDate>28/04/23</sch:FinishDate>
+		<sch:ExamType>Зачёт</sch:ExamType>
+		<sch:QtyOfHours>50</sch:QtyOfHours>
+		<sch:Literature>http://www.ya.ru</sch:Literature>
+		<sch:Literature>Мозгунов И.Н. "С++ или С#?"</sch:Literature>
+	</sch:Course>
+	
+	<sch:Course>
+		<sch:CourseName>Разработка Windows-приложений на C#</sch:CourseName>
+		<sch:ProfessorsName>Смольянинов А.В.</sch:ProfessorsName>
+		<sch:StartDate>02/05/23</sch:StartDate>
+		<sch:FinishDate>30/05/23</sch:FinishDate>
+		<sch:ExamType>Экзамен</sch:ExamType>
+		<sch:QtyOfHours>50</sch:QtyOfHours>
+		<sch:Literature>Пирамидкина О.Б. "Книга о приложениях"</sch:Literature>
+		<sch:Literature>Порошков С.К. "Форточные истории"</sch:Literature>
+	</sch:Course>
+	
+	<sch:Course>	
+		<sch:CourseName>Введение в базы данных</sch:CourseName>
+		<sch:ProfessorsName>Осетрова И.С.</sch:ProfessorsName>
+		<sch:StartDate>01/06/23</sch:StartDate>
+		<sch:FinishDate>16/06/23</sch:FinishDate>
+		<sch:ExamType>Зачёт</sch:ExamType>
+		<sch:QtyOfHours>35</sch:QtyOfHours>
+		<sch:Literature>Осигалин У.Я. "Базы данных: миф или правда?"</sch:Literature>
+	</sch:Course>
+	
+	<sch:Course>	
+		<sch:CourseName>Основы технологий разметки (HTML, XML)</sch:CourseName>
+		<sch:ProfessorsName>Кузьмин К.М.</sch:ProfessorsName>
+		<sch:StartDate>19/06/23</sch:StartDate>
+		<sch:FinishDate>29/06/23</sch:FinishDate>
+		<sch:ExamType>Зачёт</sch:ExamType>
+		<sch:QtyOfHours>25</sch:QtyOfHours>
+		<sch:Literature>Ахмедов Р.В. "Крестики-нолики на веб-странице"</sch:Literature>
+		<sch:Literature>Абдулаева М.О. "XML для детей"</sch:Literature>
+	</sch:Course>
+	
+	<sch:Course>	
+		<sch:CourseName>Transact-SQL и Разработка Microsoft SQL Server</sch:CourseName>
+		<sch:ProfessorsName>Ямщиков Д.В.</sch:ProfessorsName>
+		<sch:StartDate>03/07/23</sch:StartDate>
+		<sch:FinishDate>28/07/23</sch:FinishDate>
+		<sch:ExamType>Экзамен</sch:ExamType>
+		<sch:QtyOfHours>65</sch:QtyOfHours>
+		<sch:Literature>Запросова П.А. "SQL Server в домашних условиях"</sch:Literature>
+	</sch:Course>
+	
+</sch:schedule>
+
+
+
+
+

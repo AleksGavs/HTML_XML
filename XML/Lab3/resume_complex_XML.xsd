@@ -1,0 +1,81 @@
+<?xmlversion = "1.0" encoding = "utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="resume">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "HigherEducation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name = "Candidate" minOccurs = "1" maxOccurs = "unbounded" type="CandidateData"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name = "SecondaryEducation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name = "Candidate" minOccurs = "1" maxOccurs = "unbounded" type="CandidateData"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element> 
+	
+	
+	<xs:complexType name="CandidateData">
+		<xs:sequence>
+				<xs:element	name = "Name" type="xs:string"/>	
+				<xs:element	name = "Surname" type="xs:string"/>	
+				<xs:element	name = "Patronym" type="xs:string"/>	
+				<xs:element	name = "CurrentJob" type="xs:string"/>	
+				<xs:element	name = "CurrentPosition" type="xs:string"/>	
+				<xs:element	name = "DateOfBirth">
+						<xs:simpleType>
+							<xs:restriction base="xs:date">
+								<xs:minInclusive value="1947-01-01"/>
+								<xs:maxInclusive value="1992-01-01"/>
+							</xs:restriction>
+						</xs:simpleType>
+				</xs:element>	
+				<xs:element name = "Age" type = "AgeType" />
+				<xs:element	name = "Education">
+						<xs:simpleType>
+							<xs:restriction base = "xs:string">
+								<xs:enumeration value="Высшее"/>
+								<xs:enumeration value="Среднее" />
+							</xs:restriction>
+						</xs:simpleType>	
+				</xs:element>					
+				<xs:element	name = "Address" type="xs:string"/>					
+				<xs:element	name = "PhoneNumber">
+					<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:pattern value="[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
+							</xs:restriction>
+					</xs:simpleType>
+				</xs:element>					
+				<xs:element	name = "FamilyStatus">
+						<xs:simpleType>
+							<xs:restriction base = "xs:string">
+								<xs:enumeration value="Женат"/>
+								<xs:enumeration value="Замужем" />
+								<xs:enumeration value="Не замужем" />
+								<xs:enumeration value="Не женат"/>
+							</xs:restriction>
+						</xs:simpleType>
+				</xs:element>
+				<xs:element	name = "DesiredIncome" type="xs:integer"/>	
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required" />
+	</xs:complexType>
+	
+	
+	<xs:simpleType name = "AgeType">		
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="20"/>
+				<xs:maxInclusive value="65"/>
+			</xs:restriction>		
+	</xs:simpleType>			
+	
+</xs:schema>
